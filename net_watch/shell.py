@@ -184,7 +184,7 @@ class FenrirShell(cmd.Cmd):
             super().do_help(arg)
             print(f"\n{Fore.CYAN}╔══════════════════════════════════════════════════════════╗")
             print("║                  FENRIR COMMAND REFERENCE                ║")
-            print("╚══════════════════════════════════════════════════════════╝{Style.RESET_ALL}\n")
+            print(f"╚══════════════════════════════════════════════════════════╝{Style.RESET_ALL}\n")
             print(f"{Fore.GREEN}Available Commands:{Style.RESET_ALL}")
             print(f"  {Fore.YELLOW}sniff{Style.RESET_ALL}     Monitor network traffic (live or pcap)")
             print(f"  {Fore.YELLOW}help{Style.RESET_ALL}      Show this help message")
