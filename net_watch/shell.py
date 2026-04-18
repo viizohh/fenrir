@@ -52,7 +52,7 @@ class FenrirShell(cmd.Cmd):
 
     # Message shown when shell starts
     intro = FENRIR_ASCII + \
-            f"\n{Fore.GREEN}Welcome to Fenrir v1.0 - Network Security Scanner{Style.RESET_ALL}\n" \
+            f"\n{Fore.GREEN}Welcome to Fenrir - Network Security Scanner{Style.RESET_ALL}\n" \
             f"Type 'help' to see available commands\n"
 
     # Command prompt shown to user
